@@ -1,9 +1,11 @@
 
 import "./Result.css";
 
-const Result = ( {sum,timeClick}) => {
-    
-
+const Result = ( {show,sum,timeClick}) => {
+    // console.log(sum);
+const diffToast=()=>{
+  alert('ok');
+}
   return (
     <div>
       <div className="result">
@@ -19,14 +21,14 @@ const Result = ( {sum,timeClick}) => {
         <div className="details">
           <h3>Exercise Details</h3>
           <b>
-            Exercise time <span>{sum}s</span>
+            Exercise time <span>{sum}</span>
           </b>
           <br /> <br />
           <b>
-            Break time <span></span>
+            Break time <span>{show}</span>
           </b>
         </div>
-        <button>
+        <button onClick={diffToast}>
           <p>Activity Completed</p>
         </button>
       </div>

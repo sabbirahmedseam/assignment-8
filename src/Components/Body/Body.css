@@ -4,3 +4,18 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
  }
+
+ @media screen and (max-width:912px) {
+    .body_part{
+       grid-template-columns: repeat(2,1fr);
+    } 
+   
+ }
+
+ @media screen and (max-width:412px) {
+    .body_part{
+       grid-template-columns: repeat(1,1fr);
+    } 
+   
+ }
+ 

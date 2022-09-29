@@ -4,24 +4,30 @@ import { useState } from "react";
 import Body from "../Body/Body";
 
 import Result from "../Result/Result";
+import { summary, time } from "../Str/Str";
 import "./Home.css";
 
 const Home = () => {
-    const [sum,setSum]=useState([]);
-    // console.log(sum);
+    const [sum,setSum]=useState([0]);
+    const [total,setTotal]=useState([0]);
+    const[show,setShow]=useState(['10s']);
+    console.log(show);
+const d= summary(sum);
+
+const p=time(total);
+
+
  const timeClick=(id)=>{
-    // console.log(id);
+   
+  const secondTime=[...total,id];
+  setTotal(secondTime);
+   setShow(id);
  }
 
-  const arr=[];
+
  const list=(id)=>{
-   
-// console.log(id);
-arr.push(id);
-console.log(arr);
-const total=arr.reduce((previous,current)=>previous+Number(current),0);
-console.log(total);
-setSum(total);
+   const arr=[...sum,id];
+   setSum(arr);
  }
  
 
@@ -47,8 +53,9 @@ setSum(total);
       <div>
       
         <Result 
+     show={show}
         timeClick={timeClick}
-     
+     sum={d}
         >
 
         </Result>
