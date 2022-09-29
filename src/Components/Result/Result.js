@@ -19,7 +19,7 @@ const Result = ({ show, sum, timeClick }) => {
           </div>
         </div>
 <div>
-  
+
 </div>
         <h1>result</h1>
         <h3>Add A Break</h3>
@@ -33,7 +33,7 @@ const Result = ({ show, sum, timeClick }) => {
         <div className="details">
           <h3>Exercise Details</h3>
           <b>
-            Exercise time <span>{sum}</span>
+            Exercise time <span>{sum}s</span>
           </b>
           <br /> <br />
           <b>

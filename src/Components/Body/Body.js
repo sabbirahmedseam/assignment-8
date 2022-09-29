@@ -14,7 +14,8 @@ const Body = ({list}) => {
  
   return (
    <div>
-    <h1>body</h1>
+    <h1 className="boost">BOOST-ACTIVE-CLUB</h1>
+    <h4>Select today's exercise</h4>
      <div className='body_part'>
     
     {body.map((item) =>(
