@@ -2,6 +2,7 @@ import "./Result.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import logo from "../../man.jpg";
+import Ans from "../Answer/Ans";
 
 const Result = ({ show, sum, timeClick }) => {
   // console.log(sum);
@@ -14,14 +15,25 @@ const Result = ({ show, sum, timeClick }) => {
         <div className="man_name">
           <img className="man" src={logo} alt="" />
           <div>
-          <h3>Hasin Kamal</h3>
-          <p>Mirpur,Bangladesh</p>
+            <h3>Hasin Kamal</h3>
+            <p>Mirpur,Bangladesh</p>
           </div>
         </div>
-<div>
-
-</div>
-        <h1>result</h1>
+        <div></div>
+        <div className="person">
+          <div className="one">
+            <h2>75 <span>kg</span></h2>
+            <p>Weight</p>
+          </div>
+          <div className="one">
+            <h2>6.5</h2>
+            <p>Height</p>
+          </div>
+          <div className="one">
+            <h2>25 <span>yrs</span></h2>
+            <p>Age</p>
+          </div>
+        </div>
         <h3>Add A Break</h3>
         <div className="second">
           <span onClick={() => timeClick("10s")}>10s</span>
@@ -47,6 +59,7 @@ const Result = ({ show, sum, timeClick }) => {
         </div>
         <ToastContainer />
       </div>
+      <Ans></Ans>
     </div>
   );
 };

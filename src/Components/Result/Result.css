@@ -11,6 +11,25 @@
   border-radius: 5px;
 }
 
+.person{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.one span{
+  font-size: 12px;
+  
+}
+.one h2{
+margin: 0;
+}
+.one p{
+  margin: 0;
+
+}
 .details b {
   display: flex;
   justify-content: space-between;

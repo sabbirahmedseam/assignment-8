@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Dumble",
+    "name": "Channel",
     "paragraph":"Community gymnastic events were done as a part of the  during the various village.",
     "age": "20-25",
     "time": "15",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "name": "Dumble",
+    "name": "Runner",
     "paragraph":"Community gymnastic events were done as a part of the  during the various village.",
     "age": "20-25",
     "time": "25",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "name": "Dumble",
+    "name": "Tredmill",
     "paragraph":"Community gymnastic events were done as a part of the  during the various village.",
     "age": "20-25",
     "time": "30",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "name": "Dumble",
+    "name": "Rope",
     "paragraph":"Community gymnastic events were done as a part of the  during the various village.",
     "age": "20-25",
     "time": "40",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "name": "Dumble",
+    "name": "Cycling",
     "paragraph":"Community gymnastic events were done as a part of the  during the various village.",
     "age": "20-25",
     "time": "50",

@@ -1,3 +1,6 @@
+import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React, { useEffect, useState } from "react";
 import Man from "../Man/Man";
 // import { summary } from "../Str/Str";
@@ -13,8 +16,11 @@ const Body = ({ list }) => {
   }, []);
 
   return (
-    <div>
-      <h1 className="boost">BOOST-ACTIVE-CLUB</h1>
+    <div className="active">
+      <div className="icon">
+        <FontAwesomeIcon className="emoji" icon={faDumbbell}></FontAwesomeIcon>
+        <h1 className="boost">BOOST-ACTIVE-CLUB</h1>
+      </div>
       <h4>Select today's exercise</h4>
       <div className="body_part">
         {body.map((item) => (
