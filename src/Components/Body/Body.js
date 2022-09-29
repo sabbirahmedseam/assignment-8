@@ -28,7 +28,7 @@ const Body = ({list}) => {
       </Man>
     )
 
-    
+    <p></p>
     
     )}
   </div>
