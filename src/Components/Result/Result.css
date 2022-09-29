@@ -1,0 +1,38 @@
+.result {
+  margin: 5px;
+}
+.result button {
+  margin-top: 30px;
+  color: white;
+  width: 100%;
+  padding: 7px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.details b {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 12px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* color:whitesmoke; */
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.second span{
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.second :hover{
+    cursor: pointer;
+    background-color:royalblue;
+    color: white;
+}
